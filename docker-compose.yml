@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  project:
+    build: .
+    container_name: project
+    volumes:
+      - .:/project
+    ports:
+      - "9000"

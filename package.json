@@ -1,0 +1,34 @@
+{
+  "name": "nftnft-backend",
+  "version": "1.0.0",
+  "description": "backend for nftnft project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter list",
+    "start:dev": "nodemon",
+    "lint": "eslint --ext .ts src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericlinsd/nftnft-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericlinsd/nftnft-backend/issues"
+  },
+  "homepage": "https://github.com/ericlinsd/nftnft-backend#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@curveball/core": "^0.16.2"
+  }
+}
