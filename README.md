@@ -4,6 +4,9 @@ Inital repo was made using these sources:
 https://blog.travis-ci.com/2019-05-30-setting-up-a-ci-cd-process-on-github
 https://pokedpeter.dev/#/?id=tutorial-start
 
+Travis-CI link:
+https://travis-ci.com/github/nftnft/backend
+
 # Dev Notes
 
 Install dependencies
