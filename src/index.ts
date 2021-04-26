@@ -18,12 +18,12 @@ app.use(
   router('/event/:id')
     .get( ctx => {
       var jsonBody = {'event': {
-        'id': 123,
-        'name': 'ex. name',
-        'icon': 'ex. icon url',
+        'id': 1,
+        'name': 'NFTNFT getting started',
+        'icon': 'ex. a beautiful nft collage',
         'date': Date.now(),
         'tags': ['test'],
-        'detail': 'ex. details',
+        'detail': 'ex. this is a test event of nftnft getting started',
       } }
       ctx.response.body = jsonBody;
     })
