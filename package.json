@@ -29,6 +29,8 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@curveball/core": "^0.16.2"
+    "@curveball/accesslog": "^0.2.1",
+    "@curveball/core": "^0.16.2",
+    "@curveball/router": "^0.3.0"
   }
 }
